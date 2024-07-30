@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do Campo para Cidade</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Do Campo para Cidade</h1>
+        <p>Em busca de novas oportunidades</p>
+        <div class="scene">
+            <div id="countryside" class="landscape"></div>
+            <div id="city" class="landscape"></div>
+            <div id="person"></div>
+        </div>
+        <button id="moveButton">Iniciar Jornada</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motivos da Migração</title>
+    <style>
+        /* CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .reason {
+            background-color: #f9f9f9;
+            border-left: 4px solid #3498db;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .reason h2 {
+            color: #2980b9;
+            margin-top: 0;
+        }
+        #info-button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Motivos da Migração</h1>
+    
+    <div class="reason">
+        <h2>Procura por Emprego</h2>
+        <p>A principal razão pela qual as pessoas se deslocam do campo para a cidade é a busca por melhores oportunidades de emprego. As cidades geralmente oferecem uma maior diversidade de empregos e salários mais altos em comparação com as áreas rurais.</p>
+    </div>
+    
+    <div class="reason">
+        <h2>Acesso a Serviços</h2>
+        <p>As áreas urbanas oferecem melhor acesso a serviços essenciais como educação, saúde, transporte, e infraestrutura. Isso atrai pessoas que buscam melhores condições de vida.</p>
+    </div>
+    
+    <div class="reason">
+        <h2>Fatores Econômicos</h2>
+        <p>A mecanização da agricultura e a industrialização reduzem a necessidade de mão-de-obra nas áreas rurais, empurrando as pessoas para as cidades.</p>
+    </div>
+    
+    <div class="reason">
+        <h2>Condições de Vida</h2>
+        <p>Em muitas regiões, a vida no campo pode ser difícil devido à falta de recursos, infraestrutura inadequada, e serviços básicos insuficientes. A urbanização é vista como uma saída para essas dificuldades.</p>
+    </div>
+
+    <button id="info-button">Mais Informações</button>
+
+    <script>
+        // JavaScript code
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get the button element
+            var infoButton = document.getElementById('info-button');
+
+            // Add click event listener to the button
+            infoButton.addEventListener('click', function() {
+                // Display an alert with additional information
+                alert('A migração do campo para a cidade é um fenômeno global que tem impactos significativos na demografia, economia e desenvolvimento urbano. Para mais informações, consulte estudos demográficos e socioeconômicos recentes.');
+            });
+        });
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consequências do Êxodo Rural</title>
+    <style>
+        /* CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        h2 {
+            color: #444;
+        }
+        .consequence {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #e9e9e9;
+            border-left: 5px solid #007bff;
+        }
+        #toggleButton {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Consequências do Êxodo Rural</h1>
+        
+        <div class="consequence">
+            <h2>Crescimento Urbano</h2>
+            <p>O aumento da população urbana pode levar ao crescimento desordenado das cidades, resultando em problemas como favelas, congestionamento, e poluição.</p>
+        </div>
+        
+        <div class="consequence">
+            <h2>Desafios Sociais</h2>
+            <p>A migração em massa pode gerar tensões sociais, como a competição por empregos, moradia, e serviços. Pode também resultar em exclusão social e marginalização de grupos de migrantes.</p>
+        </div>
+        
+        <div class="consequence">
+            <h2>Impacto nas Áreas Rurais</h2>
+            <p>A saída de pessoas jovens e ativas das áreas rurais pode levar ao declínio dessas regiões, com redução da produção agrícola e abandono de terras.</p>
+        </div>
+        
+        <div class="consequence">
+            <h2>Desigualdade</h2>
+            <p>As disparidades econômicas e sociais entre áreas urbanas e rurais podem ser exacerbadas, aumentando a desigualdade dentro dos países.</p>
+        </div>
+        
+ 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Migração Rural-Urbana: Exemplos e Soluções</title>
+    <style>
+        /* CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .example, .solution {
+            margin-bottom: 20px;
+            padding: 10px;
+            border-left: 3px solid #333;
+        }
+        .example {
+            background-color: #e6f3ff;
+        }
+        .solution {
+            background-color: #e6ffe6;
+        }
+        #toggleButton {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Migração Rural-Urbana: Exemplos e Soluções</h1>
+        
+        <h2>Exemplos Históricos e Atuais</h2>
+        <div class="example">
+            <h3>Revolução Industrial</h3>
+            <p>Durante o século XIX, a Revolução Industrial na Europa e América do Norte levou a um grande êxodo rural, com trabalhadores rurais migrando para cidades em busca de empregos nas indústrias.</p>
+        </div>
+        <div class="example">
+            <h3>Países em Desenvolvimento</h3>
+            <p>Na Ásia, África e América Latina, muitas cidades têm experimentado crescimento explosivo devido à migração rural-urbana. Por exemplo, cidades como Lagos na Nigéria e Mumbai na Índia têm visto um aumento significativo de suas populações urbanas.</p>
+        </div>
+        
+        <h2>Soluções e Políticas</h2>
+        <div id="solutionsContainer">
+            <div class="solution">
+                <h3>Desenvolvimento Rural</h3>
+                <p>Investir em infraestrutura e serviços nas áreas rurais pode ajudar a reduzir a necessidade de migração para as cidades.</p>
+            </div>
+            <div class="solution">
+                <h3>Políticas Urbanas Sustentáveis</h3>
+                <p>Planejamento urbano eficaz pode ajudar a gerenciar o crescimento das cidades, garantindo que haja habitação adequada, transporte, e serviços para todos.</p>
+            </div>
+            <div class="solution">
+                <h3>Descentralização Econômica</h3>
+                <p>Promover o desenvolvimento econômico em cidades menores e regiões rurais pode ajudar a distribuir as oportunidades de forma mais equitativa.</p>
+            </div>
+        </div>
+        
+        <button id="toggleButton">Mostrar/Ocultar Soluções</button>
+    </div>
+
+    <script>
+        // JavaScript to toggle visibility of solutions
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggleButton = document.getElementById('toggleButton');
+            const solutionsContainer = document.getElementById('solutionsContainer');
+            
+            toggleButton.addEventListener('click', function() {
+                if (solutionsContainer.style.display === 'none') {
+                    solutionsContainer.style.display = 'block';
+                    toggleButton.textContent = 'Ocultar Soluções';
+                } else {
+                    solutionsContainer.style.display = 'none';
+                    toggleButton.textContent = 'Mostrar Soluções';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
